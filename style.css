@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient( rgba(252, 249, 249, 0.88), rgba(252, 249, 249, 0.88)), url(./istockphoto-1033101964-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#header, #output-div, #history-div {
+    display: flex;
+    align-items: center;
+}
+
+#header {
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10%;
+}
+
+h3 {
+    text-align: center;
+}
+
+#user-number {
+    width: 50px;
+}
+
+/*to make the id="history" line break using textContent you need "\r\n" in js and this white space css tag*/
+#history {
+    white-space: pre;
+}
+
+#submit {
+    font-family: 'Montserrat', sans-serif;
+}
